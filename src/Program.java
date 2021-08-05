@@ -21,7 +21,7 @@ public class Program {
         System.out.println("Müzik sonucunu gir : ");
         int muzik= scanner.nextInt();
 
-        int ortalama= (matematik+fizik+kimya+turkce+tarih+muzik)/6;
+        double ortalama= (matematik+fizik+kimya+turkce+tarih+muzik)/6;
         System.out.println("Not ortalaması : "+ ortalama);
 
         String sonuc= ortalama >=60 ? "Sınıfı geçti" : "Sınıfı kaldı";
